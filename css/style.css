@@ -433,25 +433,25 @@ body{
 }
 
 #nav a.topLeft {
-    top: 15px;
-    left: 15px;
+    top: 20px;
+    left: 20px;
     position: fixed;
     }
 
 #nav a.topRight {
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 20px;
     position: fixed;
 }
 
 #nav a.bottomRight {
-    bottom: 15px;
-    right: 15px;
+    bottom: 20px;
+    right: 20px;
     position: fixed;
 }
 #nav a.bottomLeft {
-    bottom: 15px;
-    left: 15px;
+    bottom: 20px;
+    left: 20px;
     position: fixed;
 }
 
@@ -488,7 +488,7 @@ float: left;
 }
 
 .boreal-active{
-  background-color: red;
+  background-color: #F2DDDE;
 
 }
 
