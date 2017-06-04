@@ -493,7 +493,8 @@ float: left;
 }
 
 .about-active{
-  background-image: url("../images/teste1.jpg");
+  background-image: url("../images/no-background-min.png");
   background-repeat: none;
   background-size: cover;
+  background-position: center;
 }
