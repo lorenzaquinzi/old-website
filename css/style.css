@@ -420,7 +420,7 @@ there.
 
 /*--------- My edit */
 body{
-  background-color: #e7f7f1;
+  background-color: #E8D4FF;
 }
 
 #nav a{
@@ -489,12 +489,12 @@ float: left;
 }
 
 .boreal-active{
-  background-color: #F2DDDE;
+  background-color: #fff;
 
 }
 
 .about-active{
-  background-image: url("../images/no-background-min.png");
+  background-image: url("../images/no-background-transparent-min.png");
   background-repeat: none;
   background-size: cover;
   background-position: center;
