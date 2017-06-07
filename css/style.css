@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -420,7 +420,7 @@ there.
 
 /*--------- My edit */
 body{
-  background-color: #E8D4FF;
+  background-color: mediumpurple;
 }
 
 #nav a{
@@ -458,19 +458,15 @@ body{
 
 .title{
 float: left;
+padding-top: 200px;
 }
 .title h2{
   text-align: left;
-  color: #333;
+  color: #000;
   margin: 0;
-  padding-top: 200px;
   font-weight: 600;
-  letter-spacing: 0.03em;
-}
-.title h5{
-  padding-top: 10px;
-  letter-spacing: 0em;
-  color: #333;
+  letter-spacing: 0.02em;
+  font-family: 'Patua One', cursive;
 }
 
 .projects a{
@@ -478,7 +474,7 @@ float: left;
 }
 
 .projects h4{
-  color: #333;
+  color: #fff;
   margin-top: 10px;
   letter-spacing: 0.03em;
 }
