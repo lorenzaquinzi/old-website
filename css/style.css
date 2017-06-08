@@ -426,7 +426,7 @@ body{
 #nav a{
     z-index: 100;
     position: absolute;
-    color: #333;
+    color: #000;
     font-size: 1.5em;
     text-decoration: none;
     letter-spacing:1px;
@@ -474,9 +474,11 @@ padding-top: 200px;
 }
 
 .projects h4{
-  color: #fff;
+  color: #000;
   margin-top: 10px;
   letter-spacing: 0.03em;
+  display: inline;
+  padding-right: 25px;
 }
 
 .projects a:hover{
@@ -484,14 +486,19 @@ padding-top: 200px;
   color: #333;
 }
 
-.boreal-active{
+.all-projects-active{
   background-color: #fafafa;
 
 }
 
-.about-active{
+.myname, a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+.myname-active{
   background-image: url("../images/no-background-transparent-min.png");
   background-repeat: none;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
