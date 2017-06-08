@@ -423,6 +423,10 @@ body{
   background-color: mediumpurple;
 }
 
+.section{
+  padding: 8rem 0 7rem;
+}
+
 #nav a{
     z-index: 100;
     position: absolute;
@@ -469,11 +473,11 @@ padding-top: 200px;
   font-family: 'Patua One', cursive;
 }
 
-.projects a{
+.menu a{
     text-decoration: none;
 }
 
-.projects h4{
+.menu h4{
   color: #000;
   margin-top: 10px;
   letter-spacing: 0.03em;
@@ -481,13 +485,13 @@ padding-top: 200px;
   padding-right: 25px;
 }
 
-.projects a:hover{
+.menu a:hover{
   text-decoration: underline;
   color: #333;
 }
 
 .all-projects-active{
-  background-color: #fafafa;
+  background-color: mediumspringgreen;
 
 }
 
@@ -501,4 +505,14 @@ padding-top: 200px;
   background-repeat: none;
   background-size: cover;
   background-position: top center;
+}
+
+.projects h2{
+  text-align: left;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: 'Patua One', cursive;
+  margin-top: 50vh;
 }
