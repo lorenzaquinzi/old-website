@@ -527,3 +527,24 @@ body{
   font-family: 'Patua One', cursive;
   margin-top: 50vh;
 }
+
+.gallery{
+  margin-top: 100px;
+}
+
+.thumb{
+  margin-bottom: 40px;
+  box-shadow: 0px 15px 50px 0.9px rebeccapurple;
+}
+
+.project-one{
+  background-color: palegreen;
+  height: 250px;
+  padding: 20px;
+}
+
+.project-two{
+  background-color: paleturquoise;
+  height: 250px;
+  padding: 20px;
+}
