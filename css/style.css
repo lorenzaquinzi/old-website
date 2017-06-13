@@ -422,9 +422,6 @@ body{
   background-color: mediumpurple;
 }
 
-.section{
-  margin-top: 20vh;
-}
 
 #nav a{
     z-index: 100;
@@ -459,18 +456,18 @@ body{
     position: fixed;
 }
 
-.title{
+.intro{
   float: left;
   padding-top: 110px;
 }
 
 @media (min-width: 550px){
-.title{
+.intro{
   float: left;
   padding-top: 200px;}
 }
 
-.title h2{
+.intro h2{
   text-align: left;
   color: #000;
   margin: 0;
@@ -490,6 +487,7 @@ body{
   line-height: 1.7em;
   display: inline;
   text-decoration: underline;
+  text-decoration-color: black;
   padding-right: 20px;
 }
 
@@ -512,13 +510,13 @@ body{
   background-image: url("../images/no-background-transparent-min.png");
   background-repeat: none;
   background-size: cover;
-  background-position: top center;
+  background-position: bottom;
 }
 
-.projects h3{
+.section-title{
   text-align: left;
   color: #000;
-  margin: 0;
+  margin: 0 0 70px;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-family: 'Patua One', cursive;
@@ -533,14 +531,28 @@ body{
   padding: 15px;
   hyphens: auto;
   overflow: hidden;
+  border-radius: 7px;
   box-shadow: 0px 15px 50px 0.9px rebeccapurple;
   margin-bottom: 40px;
 }
 
+.thumb h5{
+  color:white;
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+
+}
+
 .project-one{
   background-color: white;
+  background-image: url("https://static.pexels.com/photos/37819/pexels-photo-37819.jpeg");
+  background-size: 800px;
+  background-repeat: no-repeat;
 }
 
 .project-two{
   background-color: white;
+  background-image: url("https://static.pexels.com/photos/435901/pexels-photo-435901.jpeg");
+  background-size: 800px;
+  background-repeat: no-repeat;
 }
