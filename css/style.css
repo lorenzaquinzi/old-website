@@ -447,7 +447,12 @@ body{
   margin-top: 15px;
 }
 
-.menu h4{
+.menu h5{
+  display: inline;
+  padding-right: 10px;
+}
+
+.menu a h5{
   color: rgba(0, 0, 0, 0.7);
   margin-top: 10px;
   letter-spacing: 0.03em;
@@ -463,7 +468,7 @@ body{
   
 }
 
-.about-active{
+.email-active{
   background-color: mediumspringgreen;
 
 }
@@ -486,7 +491,7 @@ body{
   letter-spacing: 0.02em;
   font-family: 'Patua One', cursive;
   position: relative;
-  margin-top: 50vh;
+  margin-top: 250px;
 }
 
 

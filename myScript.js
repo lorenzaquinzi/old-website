@@ -1,5 +1,5 @@
 // Pega os elementos body e a classe do hover
-var elm = document.querySelector('.about');
+var elm = document.querySelector('.email');
 var body = document.querySelector('body')
 
 // Quando o mouse entrar ou sair, chama a função troca classe
@@ -11,7 +11,7 @@ function trocaClasse (evt) {
   evt.stopPropagation(); // <-- evita que afete outros elementos
   
   // troca a classe mesmo
-  body.classList.toggle('about-active')
+  body.classList.toggle('email-active')
 }
 
 
