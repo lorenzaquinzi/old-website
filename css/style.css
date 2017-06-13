@@ -461,9 +461,16 @@ body{
 }
 
 .title{
-float: left;
-padding-top: 200px;
+  float: left;
+  padding-top: 110px;
 }
+
+@media (min-width: 550px){
+.title{
+  float: left;
+  padding-top: 200px;}
+}
+
 .title h2{
   text-align: left;
   color: #000;
@@ -473,21 +480,25 @@ padding-top: 200px;
   font-family: 'Patua One', cursive;
 }
 
+.menu{
+  margin-top: 15px;
+}
 .menu a{
     text-decoration: none;
 }
 
 .menu h4{
-  color: #000;
+  color: rgba(0, 0, 0, 0.7);
   margin-top: 10px;
   letter-spacing: 0.03em;
   display: inline;
-  padding-right: 25px;
+  text-decoration: underline;
+  padding-right: 20px;
 }
 
-.menu a:hover{
-  text-decoration: underline;
-  color: #333;
+.menu h4:hover{
+  color: rgba(0, 0, 0, 1);
+  
 }
 
 .all-projects-active{
