@@ -31,7 +31,6 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -424,7 +423,7 @@ body{
 }
 
 .section{
-  padding: 8rem 0 7rem;
+  margin-top: 20vh;
 }
 
 #nav a{
@@ -483,14 +482,12 @@ body{
 .menu{
   margin-top: 15px;
 }
-.menu a{
-    text-decoration: none;
-}
 
 .menu h4{
   color: rgba(0, 0, 0, 0.7);
   margin-top: 10px;
   letter-spacing: 0.03em;
+  line-height: 1.7em;
   display: inline;
   text-decoration: underline;
   padding-right: 20px;
@@ -501,7 +498,7 @@ body{
   
 }
 
-.all-projects-active{
+.about-active{
   background-color: mediumspringgreen;
 
 }
@@ -518,33 +515,32 @@ body{
   background-position: top center;
 }
 
-.projects h2{
+.projects h3{
   text-align: left;
   color: #000;
   margin: 0;
   font-weight: 600;
   letter-spacing: 0.02em;
   font-family: 'Patua One', cursive;
-  margin-top: 50vh;
 }
 
 .gallery{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .thumb{
-  margin-bottom: 40px;
+  height: 300px;
+  padding: 15px;
+  hyphens: auto;
+  overflow: hidden;
   box-shadow: 0px 15px 50px 0.9px rebeccapurple;
+  margin-bottom: 40px;
 }
 
 .project-one{
-  background-color: palegreen;
-  height: 250px;
-  padding: 20px;
+  background-color: white;
 }
 
 .project-two{
-  background-color: paleturquoise;
-  height: 250px;
-  padding: 20px;
+  background-color: white;
 }
