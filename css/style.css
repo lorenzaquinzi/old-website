@@ -443,16 +443,17 @@ body{
   font-family: 'Patua One', cursive;
 }
 
-.menu{
+.contact{
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 
-.menu h5{
+.contact h5{
   display: inline;
-  padding-right: 10px;
+  padding-right: 7px;
 }
 
-.menu a h5{
+.contact a h5{
   color: rgba(0, 0, 0, 0.7);
   margin-top: 10px;
   letter-spacing: 0.03em;
@@ -463,7 +464,7 @@ body{
   padding-right: 20px;
 }
 
-.menu h4:hover{
+.contact h4:hover{
   color: rgba(0, 0, 0, 1);
   
 }
@@ -491,37 +492,66 @@ body{
   letter-spacing: 0.02em;
   font-family: 'Patua One', cursive;
   position: relative;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
+.gallery{
+  position: relative;
+  margin-top: 150px;
+}
+
+.thumb-wrapper{
+  margin-bottom: 70px;
+}
+
+.thumb-wrapper h3{
+  text-align: left;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: 'Patua One', cursive;
+}
+
+.thumb-wrapper h5{
+  margin-bottom: 10px;
+  letter-spacing: 0.02em;
+}
 
 .thumb{
   height: 300px;
   padding: 15px;
   hyphens: auto;
   overflow: hidden;
-  border-radius: 7px;
+  border-radius: 14px;
   box-shadow: 0px 15px 50px 0.9px rebeccapurple;
-  margin-bottom: 40px;
-}
-
-.thumb h5{
-  color:white;
-  margin-bottom: 10px;
-  letter-spacing: 0.02em;
-
+  margin-bottom: 20px;
 }
 
 .project-one{
-  background-color: white;
-  background-image: url("https://static.pexels.com/photos/37819/pexels-photo-37819.jpeg");
-  background-size: 800px;
+  background-color: pink;
+  background-image: url("../images/no-background-transparent-min.png");
+  background-size: 500px;
   background-repeat: no-repeat;
 }
 
 .project-two{
-  background-color: white;
-  background-image: url("https://static.pexels.com/photos/435901/pexels-photo-435901.jpeg");
-  background-size: 800px;
+  background-color: paleturquoise;
+  background-image: url("../images/no-background-transparent-min.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+
+.project-three{
+  background-color: lemonchiffon;
+  background-image: url("../images/no-background-transparent-min.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+}
+
+.project-four{
+  background-color: peachpuff;
+  background-image: url("../images/no-background-transparent-min.png");
+  background-size: 500px;
   background-repeat: no-repeat;
 }
