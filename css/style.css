@@ -421,7 +421,7 @@ there.
 
 /*--------- My edit */
 body{
-  background-color: mediumpurple;
+  background-color: #fafafa;
 }
 
 .intro{
@@ -444,11 +444,6 @@ body{
   font-family: 'Patua One', cursive;
 }
 
-.contact{
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
 .contact h5{
   display: inline;
   padding-right: 7px;
@@ -467,7 +462,7 @@ body{
 
 .contact h4:hover{
   color: rgba(0, 0, 0, 1);
-  
+
 }
 
 .email-active{
@@ -493,7 +488,6 @@ body{
   letter-spacing: 0.02em;
   font-family: 'Patua One', cursive;
   position: relative;
-  margin-top: 150px;
 }
 
 .gallery{
@@ -557,4 +551,10 @@ body{
   background-image: url("../images/no-background-transparent-min.png");
   background-size: 500px;
   background-repeat: no-repeat;
+}
+
+footer{
+  background-color: mistyrose;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
