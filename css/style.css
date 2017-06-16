@@ -472,7 +472,7 @@ body{
 }
 
 .email-active{
-  background-color: mediumspringgreen;
+  background-color: mistyrose;
 
 }
 
@@ -582,3 +582,7 @@ footer{
 .project-header h5{
   float: right;
 }}
+
+.modo-project img{
+  height: 400px;
+}
