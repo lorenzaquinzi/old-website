@@ -478,7 +478,8 @@ body{
 .myname-active{
   background-image: url("../images/no-background-transparent-min.png");
   background-size: 700px;
-  background-position: top;
+  background-position: top right;
+  background-repeat: no-repeat;
 }
 
 .section-title{
@@ -525,6 +526,12 @@ body{
   margin-bottom: 20px;
 }
 
+@media (min-width: 1100px){
+.see-project{
+  float: right;
+  margin-top: 1rem;
+}
+}
 .project-one{
   background-color: pink;
   background-image: url("../images/no-background-transparent-min.png");
