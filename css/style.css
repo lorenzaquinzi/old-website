@@ -478,73 +478,57 @@ body{
 }
 
 .thumb-wrapper{
-  margin-bottom: 70px;
+  margin-bottom: 40px;
+  background: #f0f0f0;
 }
 
-.thumb-wrapper h4{
+.thumb-info h5{
   text-align: left;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
   color: #000;
   margin: 0;
   font-weight: 600;
   letter-spacing: 0.02em;
+  line-height: normal;
   font-family: 'Patua One', cursive;
   display: block;
 }
 
-.thumb-wrapper h6{
+.thumb-info h6{
+  padding-left: 14px;
+  padding-right: 14px;
   margin-bottom: 10px;
   letter-spacing: 0.02em;
   display: block;
 }
 
-.thumb {
-  height: 300px;
-  padding: 15px;
-  hyphens: auto;
+.thumb-image {
+  max-height: 300px;
   overflow: hidden;
-  /*border-radius: 14px;*/
   /*box-shadow: 0px 1px 40px 0.9px rebeccapurple;*/
-  margin-bottom: 20px;
 }
 
-@media (min-width: 1100px){
-.see-project{
-  float: right;
-  margin-top: 1rem;
+.thumb-image img{
+  width: 100%;
+  height: auto;
 }
-}
+
 .project-one{
   background-color: pink;
-  background-image: url("../images/no-background-transparent-min.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
 }
 
 .project-two{
   background-color: paleturquoise;
-  background-image: url("../images/no-background-transparent-min.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
 }
 
 .project-three{
   background-color: lemonchiffon;
-  background-image: url("../images/no-background-transparent-min.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
 }
 
 .project-four{
   background-color: peachpuff;
-  background-image: url("../images/no-background-transparent-min.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
-}
-
-.social-media {
-  text-decoration:none;
-  color: black;
-  font-weight: 600;
 }
 
 footer{
@@ -554,28 +538,24 @@ footer{
 }
 
 .contact h5{
-  display: inline;
-  padding-right: 7px;
-}
-
-.email{
   color: black;
-  margin-top: 10px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   line-height: 1.7em;
   display: inline;
-  text-decoration: none;
+}
+
+.social-media, .email {
+  margin-top: 10px;
   padding-right: 20px;
+  text-decoration: none;
 }
 
 .contact h5:hover{
   text-decoration: underline;
-
 }
 
 .email-active{
   background-color: mistyrose;
-
 }
 
 /*----Project page*/
