@@ -441,9 +441,9 @@ body{
 }
 
 .intro{
-  padding-top: 35px;
+  padding-top: 70px;
   padding-bottom: 70px;
-  background-color: white;
+  /*background-color: white;*/
   /*background-image: url("https://media.giphy.com/media/16e1J9ztaZ3na/giphy.gif");
   background-repeat: no-repeat;
   background-position: left;
@@ -453,7 +453,6 @@ body{
 @media (min-width: 750px) {
 .intro{
   padding-top: 200px;
-  padding-bottom: 200px;
   }
 }
 
@@ -567,17 +566,41 @@ body{
 }
 
 .resume{
-  margin-top: 70px;
+  margin-top: 140px;
 }
 
 .resume-title{
-  color: #333;
-  text-decoration: underline;
-  padding-bottom: 20px;
+  text-align: left;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-family: 'Patua One', cursive;
+  position: relative;
+  padding-bottom: 40px;
 }
 
 .resume h5{
   margin: 0;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.resume a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.resume a:hover{
+  text-decoration: underline;
+}
+
+.resume span{
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 16px;
+  font: inherit;
 }
 
 .resume ul li{
@@ -587,6 +610,13 @@ body{
 
 .float-right{
   float: right;
+}
+
+.mypicture img{
+  height: auto;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 500px;
 }
 
 footer{
@@ -610,6 +640,7 @@ footer{
 .contact h5:hover{
   text-decoration: underline;
 }
+
 
 .signature{
   background-color:rgba(0,0,0,0.05);
