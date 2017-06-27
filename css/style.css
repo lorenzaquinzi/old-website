@@ -581,12 +581,12 @@ text-rendering: optimizeLegibility;
 }
 
 .resume{
-  margin-top: 70px;
+  margin-top: 35px;
 }
 
 @media (min-width: 750px) {
 .resume{
-  margin-top: 35px;
+  margin-top: 70px;
   }}
 
 
