@@ -446,7 +446,7 @@ text-rendering: optimizeLegibility;
 
 .intro{
   padding-top: 35px;
-  padding-bottom: 70px;
+  padding-bottom: 35px;
   /*background-color: white;*/
   /*background-image: url("https://media.giphy.com/media/16e1J9ztaZ3na/giphy.gif");
   background-repeat: no-repeat;
@@ -457,6 +457,7 @@ text-rendering: optimizeLegibility;
 @media (min-width: 750px) {
 .intro{
   padding-top: 200px;
+  padding-bottom: 70px;
   }
 }
 
@@ -497,14 +498,20 @@ text-rendering: optimizeLegibility;
   letter-spacing: 0.03em;
   font-family: 'Patua One', cursive;
   position: relative;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 .gallery{
   position: relative;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 750px){
+.gallery{
   margin-top: 70px;
   margin-bottom: 70px;
-}
+}}
 
 @media (min-width: 1000px){
 .gallery a:hover{
@@ -577,13 +584,25 @@ text-rendering: optimizeLegibility;
   margin-top: 70px;
 }
 
+@media (min-width: 750px) {
+.resume{
+  margin-top: 35px;
+  }}
+
+
 .resume-title{
   text-align: left;
   color: #000;
   letter-spacing: 0.03em;
   font-family: 'Patua One', cursive;
   position: relative;
+  padding-bottom: 0;
+}
+
+@media (min-width: 750px) {
+.resume-title{
   padding-bottom: 40px;
+  }
 }
 
 .resume h5{
