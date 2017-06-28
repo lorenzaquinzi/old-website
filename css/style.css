@@ -447,8 +447,9 @@ text-rendering: optimizeLegibility;
 .intro{
   padding-top: 35px;
   padding-bottom: 35px;
+  background-color: #E8D4FF;
   /*background-color: white;*/
-  /*background-image: url("https://media.giphy.com/media/16e1J9ztaZ3na/giphy.gif");
+  /*background-image: url("https://media.giphy.com/media/Y2JBdj8EoJoFq/giphy.gif");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;*/
@@ -552,7 +553,6 @@ text-rendering: optimizeLegibility;
   width: 100%;
 }
 
-
 .resume-title{
   text-align: left;
   color: #000;
@@ -610,7 +610,7 @@ text-rendering: optimizeLegibility;
 }
 
 footer{
-  background-color: #E8D4FF;
+  background-color: #8cf7e4;
   margin-top: 100px;
 }
 
