@@ -548,30 +548,8 @@ text-rendering: optimizeLegibility;
   display: block;
 }
 
-.thumb-image {
+.thumb-wrapper img{
   width: 100%;
-  height: auto;
-  top: 0;
-}
-
-.thumb-image img{
-  width: 100%;
-}
-
-.project-one{
-  background-color: pink;
-}
-
-.project-two{
-  background-color: paleturquoise;
-}
-
-.project-three{
-  background-color: lemonchiffon;
-}
-
-.project-four{
-  background-color: peachpuff;
 }
 
 
