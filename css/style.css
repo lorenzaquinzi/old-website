@@ -447,9 +447,9 @@ text-rendering: optimizeLegibility;
 .intro{
   padding-top: 35px;
   padding-bottom: 35px;
-  background-color: #E8D4FF;
+  /*background-color: #E8D4FF;*/
   /*background-color: white;*/
-  /*background-image: url("https://media.giphy.com/media/Y2JBdj8EoJoFq/giphy.gif");
+  /*background-image: url("https://media.giphy.com/media/aqkJ9q160Zmta/giphy.gif");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;*/
@@ -468,6 +468,10 @@ text-rendering: optimizeLegibility;
   margin: 0;
   letter-spacing: 0.03em;
   font-family: 'Patua One', cursive;
+}
+
+.intro i{
+  color: #7214DD;
 }
 
 .myname, a:hover{
@@ -571,7 +575,7 @@ text-rendering: optimizeLegibility;
 .resume h5{
   margin: 0;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 28px;
   color: #444;
 }
 
@@ -610,7 +614,7 @@ text-rendering: optimizeLegibility;
 }
 
 footer{
-  background-color: #8cf7e4;
+  background-color: #E8D4FF;
   margin-top: 100px;
 }
 
