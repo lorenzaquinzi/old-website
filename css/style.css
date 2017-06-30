@@ -357,6 +357,11 @@ ol,
 form {
   margin-bottom: 2.5rem; }
 
+/* Material*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -420,6 +425,8 @@ there.
 
 
 /*--------- My edit */
+
+
 body{
   background-color: #fafafa;
   -webkit-font-smoothing: antialiased;
@@ -557,19 +564,8 @@ text-rendering: optimizeLegibility;
   width: 100%;
 }
 
-.resume-title{
-  text-align: left;
-  color: #000;
-  letter-spacing: 0.03em;
-  font-family: 'Patua One', cursive;
-  position: relative;
-  padding-bottom: 0;
-}
-
-@media (min-width: 750px) {
-.resume-title{
-  padding-bottom: 40px;
-  }
+.section-icon{
+  color: #666;
 }
 
 .resume h5{
