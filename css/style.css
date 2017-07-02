@@ -598,15 +598,12 @@ text-rendering: optimizeLegibility;
   margin-bottom: 30px;
 }
 
-.float-right{
-  float: right;
+.about{
+  margin-top: 140px;
 }
 
-.mypicture img{
-  height: auto;
-  max-width: 300px;
-  overflow: hidden;
-  border-radius: 500px;
+.about h5{
+  padding-top: 35px;
 }
 
 footer{
