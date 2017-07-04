@@ -598,6 +598,9 @@ text-rendering: optimizeLegibility;
   margin-bottom: 30px;
 }
 
+.mypicture{
+  margin-top: 35px;
+}
 .about{
   margin-top: 140px;
 }
