@@ -608,6 +608,9 @@ text-rendering: optimizeLegibility;
 .about h5{
   padding-top: 35px;
 }
+.about span{
+  letter-spacing: 0.4px;
+}
 
 footer{
   background-color: #E8D4FF;
@@ -670,4 +673,8 @@ footer{
   color: #000;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.project-footer{
+  margin-top: 0;
 }
