@@ -513,6 +513,15 @@ text-rendering: optimizeLegibility;
   padding-top: 35px;
 }
 
+.section-title-footer{
+  text-align: left;
+  color: #f1f1f1;
+  letter-spacing: 0.03em;
+  font-family: 'Patua One', cursive;
+  position: relative;
+  padding-top: 35px;
+}
+
 .gallery{
   position: relative;
   margin-top: 35px;
@@ -613,12 +622,12 @@ text-rendering: optimizeLegibility;
 }
 
 footer{
-  background-color: #E8D4FF;
+  background-color: #111;
   margin-top: 100px;
 }
 
 .contact h5{
-  color: black;
+  color: #f1f1f1;
   letter-spacing: 0.02em;
   line-height: 1.7em;
   display: inline;
@@ -636,20 +645,20 @@ footer{
 
 
 .signature{
-  background-color:rgba(0,0,0,0.05);
+  background-color:#000;
   padding: 10px 0;
   margin-top: 40px;
 }
 
 .signature h6{
   margin: 0;
+  color: #f1f1f1;
 }
 
 /*----Project page*/
 
 .nav-project-page {
-  padding-left: 20px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .nav-project-page a, i{
@@ -661,20 +670,33 @@ footer{
   line-height: 1.7em;
   display: inline;
   text-decoration: none;
+  letter-spacing: 0.05em;
+  font-family: 'Patua One', cursive;
+  display: inline;
 }
 
-.project-header h3{
+.header-project h3{
+  margin-top: 70px;
   margin-bottom: 1px;
   padding-top: 0;
 }
 
-.project-header h6{
+.header-project h6{
   margin-bottom: 10px;
   color: #000;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.project-footer{
+.image-full-project{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.intro-project{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.footer-project{
   margin-top: 0;
 }
