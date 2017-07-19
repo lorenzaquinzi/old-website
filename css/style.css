@@ -536,6 +536,7 @@ text-rendering: optimizeLegibility;
   margin-bottom: 40px;
   background: white;
   border: 1px solid #f1f1f1;
+  position: relative;
 }
 
 .thumb-info h5{
@@ -562,7 +563,29 @@ text-rendering: optimizeLegibility;
 }
 
 .thumb-wrapper img{
-  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.behance-hover{
+  color: #444;
+  position: absolute;
+  display:flex;
+  height: 100%;
+  justify-content:center;
+  align-items: center;
+  opacity:0;
+  transition-duration: .2s;
+}
+
+ .behance-hover i{
+   color: #444;
+ }
+
+.thumb-wrapper:hover .behance-hover{
+  opacity:1;
+  transform: scale(1.02);
+  background-color: mistyrose;
 }
 
 .section-icon{
@@ -594,6 +617,19 @@ text-rendering: optimizeLegibility;
   font: inherit;
 }
 
+.past span{
+  color:#777;
+}
+.past a{
+  color:#777;
+}
+.past h5{
+  color:#777;
+}
+.past i{
+  color: #777;
+}
+
 .resume ul li{
   list-style: none;
   margin-bottom: 30px;
@@ -606,8 +642,9 @@ text-rendering: optimizeLegibility;
   margin-top: 140px;
 }
 
-.about h5{
+.about h6{
   padding-top: 35px;
+  letter-spacing: 0.5px;
 }
 .about span{
   letter-spacing: 0.4px;
@@ -633,6 +670,7 @@ footer{
 
 .contact h5:hover{
   text-decoration: underline;
+  line-height: 10px;
 }
 
 
