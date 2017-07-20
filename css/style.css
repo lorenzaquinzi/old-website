@@ -436,7 +436,7 @@ text-rendering: optimizeLegibility;
 }
 
 .scroll-down{
-  margin-top: 40px;
+  margin-top: 35px;
   overflow-x: hidden;
 }
 
@@ -533,7 +533,7 @@ text-rendering: optimizeLegibility;
 }}
 
 .thumb-wrapper{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   background: white;
   border: 1px solid #f1f1f1;
   position: relative;
@@ -611,7 +611,7 @@ text-rendering: optimizeLegibility;
 
 .resume ul li{
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .mypicture{
@@ -620,7 +620,7 @@ text-rendering: optimizeLegibility;
 }
 
 .about{
-  margin-top: 140px;
+  margin-top: 105px;
 }
 
 .about h6{
@@ -632,12 +632,13 @@ text-rendering: optimizeLegibility;
 }
 .about a{
   margin-top: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 70px;
 }
 
 footer{
   background-color: #E8D4FF;
   margin-top: 70px;
+
 }
 
 .contact h5{
