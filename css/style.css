@@ -173,7 +173,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #000;
+  color: #fafafa;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -184,7 +184,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: transparent;
   border-radius: 0px;
-  border: 2px solid #000;
+  border: 2px solid #fafafa;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -197,9 +197,9 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #fff;
+  color: #333;
   border-color: transparent;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.9);
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -456,9 +456,9 @@ text-rendering: optimizeLegibility;
   padding-bottom: 35px;
   /*background-color: #E8D4FF;*/
   /*background-color: white;*/
-  /*background-image: url("https://media.giphy.com/media/aqkJ9q160Zmta/giphy.gif");
+  /*background-image: url("../images/teste2.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top center;
   background-size: cover;*/
 }
 
@@ -471,19 +471,19 @@ text-rendering: optimizeLegibility;
 
 .intro h1{
   text-align: left;
-  color: #000;
+  color: #333;
   margin: 0;
   letter-spacing: 0.03em;
   font-family: 'Patua One', cursive;
 }
 
 .intro i{
-  color: #7214DD;
+  color: #333;
 }
 
 .myname, a:hover{
   text-decoration: none;
-  color: #000;
+  color: #333;
   cursor:pointer;
 }
 
@@ -496,6 +496,7 @@ text-rendering: optimizeLegibility;
 
 .skills h5{
   margin: 0;
+  color: #333;
 }
 @media (min-width: 750px){
 .skills h5{
@@ -506,11 +507,10 @@ text-rendering: optimizeLegibility;
 
 .section-title{
   text-align: left;
-  color: #222;
+  color: #333;
   letter-spacing: 0.03em;
   font-family: 'Patua One', cursive;
   position: relative;
-  padding-top: 35px;
 }
 
 
@@ -615,34 +615,38 @@ text-rendering: optimizeLegibility;
 }
 
 .mypicture{
-  width: 100%;
-  height: auto;
+border-radius: 100%;
 }
 
 .about{
-  margin-top: 105px;
+  margin-top: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #fafafa;
+  background-image: url("../images/stardust.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
 }
 
-.about h6{
-  padding-top: 35px;
-  letter-spacing: 0.5px;
+.about h5{
+
+  letter-spacing: 0.7px;
 }
-.about span{
-  letter-spacing: 0.4px;
-}
+
 .about a{
   margin-top: 35px;
-  margin-bottom: 70px;
 }
 
 footer{
-  background-color: #E8D4FF;
-  margin-top: 70px;
+  background-color: #fafafa;
+  padding: 70px 0 0 0;
 
 }
 
 .contact h5{
-  color: #111;
+  color: #333;
   letter-spacing: 0.02em;
   line-height: 1.7em;
   display: inline;
@@ -656,14 +660,15 @@ footer{
 
 .contact h5:hover{
   text-decoration: underline;
-  line-height: 10px;
+  line-height: 20px;
 }
 
 
 .signature{
-  background-color:rgba(32, 0, 132, 0.06);
+  background-color:#eee;
+  color: #333;
   padding: 10px 0;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .signature h6{
