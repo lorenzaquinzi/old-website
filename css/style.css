@@ -442,7 +442,7 @@ text-rendering: optimizeLegibility;
 
 @media (min-width: 750px) {
 .scroll-down{
-  margin-top: 210px;
+  margin-top: 140px;
 }
 }
 
@@ -470,12 +470,12 @@ text-rendering: optimizeLegibility;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: black;
+  background-color: rgba(37,37,37, 1);
 }
 
 @media (min-width: 750px) {
 .intro{
-  padding-top: 140px;
+  padding-top: 210px;
   padding-bottom: 100px;
   }
 }
@@ -538,39 +538,45 @@ text-rendering: optimizeLegibility;
 }}
 
 @media (min-width: 1000px){
-.gallery a:hover{
-  box-shadow: 1px 3px 10px 0.9px #eee;
-  transform: scale(1.02);
+.gallery a:hover .where{
+ visibility: visible;
 }}
 
 .thumb-wrapper{
   margin-bottom: 35px;
-  background: white;
-  border: 1px solid #eee;
   position: relative;
 }
 
 .thumb-info{
   position: absolute;
-  padding: 14px;
+  padding: 24px;
   left: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/*.where{
+.where{
   visibility: hidden;
   position: absolute;
-  padding: 14px;
   right: 0;
   bottom: 0;
+  left: 0;
+  top: 0;
+  justify-content:center;
+  display:flex;
   align-items: center;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+  margin: 0;
+  /*margin:150px 300px;*/
 }
 .where i{
-  color: #fafafa;
+  color: #333;
+  padding: 0 0 0 4px;
 }
 
-@media (min-width: 1000px){
+/*@media (min-width: 1000px){
 .thumb-wrapper:hover .where{
   visibility: visible;
 }
@@ -659,7 +665,7 @@ border-radius: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: black;
+  background-color: rgba(37,37,37, 1)
 }
 
 .about h5{
