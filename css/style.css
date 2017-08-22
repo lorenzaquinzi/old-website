@@ -31,7 +31,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 1020px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -436,7 +436,7 @@ text-rendering: optimizeLegibility;
 }
 
 .scroll-down{
-  margin-top: 140px;
+  margin-top: 70px;
   overflow-x: hidden;
 }
 
@@ -467,9 +467,8 @@ text-rendering: optimizeLegibility;
   background-position: top center;
   background-size: cover;*/
   background-image: url("../images/stardust.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
   background-color: rgba(37,37,37, 1);
 }
 
@@ -486,6 +485,7 @@ text-rendering: optimizeLegibility;
   margin: 0;
   letter-spacing: 0.03em;
   font-family: 'Patua One', cursive;
+  max-width: 1020px;
 }
 
 .intro i{
@@ -569,18 +569,17 @@ text-rendering: optimizeLegibility;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 0;
   margin: 0;
-  /*margin:150px 300px;*/
 }
 .where i{
   color: #333;
   padding: 0 0 0 4px;
 }
 
-/*@media (min-width: 1000px){
+@media (min-width: 1000px){
 .thumb-wrapper:hover .where{
   visibility: visible;
 }
-}*/
+}
 
 .thumb-info h5{
   text-align: left;
@@ -653,19 +652,24 @@ text-rendering: optimizeLegibility;
 }
 
 .mypicture{
-border-radius: 100%;
+  margin-bottom: 35px;
+  border-radius: 20px;
 }
 
+.fingerprint{
+  margin-bottom: 35px;
+  color: #fafafa;
+}
 .about{
+  text-align: center;
   margin-top: 70px;
   padding-top: 70px;
   padding-bottom: 70px;
   color: #fafafa;
   background-image: url("../images/stardust.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
-  background-size: cover;
-  background-color: rgba(37,37,37, 1)
+  background-color: rgba(37,37,37, 1);
 }
 
 .about h5{
