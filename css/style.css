@@ -538,7 +538,7 @@ text-rendering: optimizeLegibility;
 }}
 
 @media (min-width: 1000px){
-.gallery a:hover .where{
+.gallery a:hover .thumb-hover, .thumb-hover-2{
  visibility: visible;
 }}
 
@@ -547,36 +547,43 @@ text-rendering: optimizeLegibility;
   position: relative;
 }
 
-.thumb-info{
-  position: absolute;
-  padding: 24px;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.where{
+.thumb-hover{
   visibility: hidden;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   top: 0;
-  justify-content:center;
-  display:flex;
-  align-items: center;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 0;
+  background-color: rgba(37, 37, 37, 0.95);
+  padding: 21px;
   margin: 0;
 }
-.where i{
-  color: #333;
-  padding: 0 0 0 4px;
+
+.thumb-hover-2{
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  bottom: 0;
+  padding: 21px;
+  vertical-align: bottom;
+}
+
+
+.thumb-hover-2 i{
+  color: #fafafa;
+  padding: 0 0 0 5px;
+  vertical-align: middle;
+}
+
+
+@media (min-width: 1000px){
+.thumb-wrapper:hover .thumb-hover{
+  visibility: visible;
+}
 }
 
 @media (min-width: 1000px){
-.thumb-wrapper:hover .where{
+.thumb-wrapper:hover .thumb-hover-2{
   visibility: visible;
 }
 }
