@@ -491,7 +491,7 @@ text-rendering: optimizeLegibility;
 
 @media (min-width: 750px) {
 .intro{
-  padding-top: 90px;
+  padding-top: 210px;
   padding-bottom: 100px;
   }
 }
