@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -435,6 +435,23 @@ text-rendering: optimizeLegibility;
 -moz-font-feature-settings: "liga" on;
 }
 
+.navigation{
+  flex-direction: row;
+}
+
+@media (min-width:1000px) {
+  .navigation{
+  padding-bottom: 100px;
+  }
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fafafa;
+    letter-spacing: 0.03em;
+    font-family: 'Rubik', sans-serif;
+}
 .scroll-down{
   margin-top: 70px;
   overflow-x: hidden;
@@ -474,7 +491,7 @@ text-rendering: optimizeLegibility;
 
 @media (min-width: 750px) {
 .intro{
-  padding-top: 210px;
+  padding-top: 90px;
   padding-bottom: 100px;
   }
 }
@@ -484,7 +501,8 @@ text-rendering: optimizeLegibility;
   color: #fafafa;
   margin: 0;
   letter-spacing: 0.03em;
-  font-family: 'Patua One', cursive;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
   max-width: 1020px;
 }
 
@@ -520,7 +538,8 @@ text-rendering: optimizeLegibility;
   text-align: left;
   color: #333;
   letter-spacing: 0.03em;
-  font-family: 'Patua One', cursive;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
   position: relative;
 }
 
@@ -599,7 +618,8 @@ text-rendering: optimizeLegibility;
   margin: 0;
   letter-spacing: 0.03em;
   line-height: normal;
-  font-family: 'Patua One', cursive;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
   display: block;
 }
 
@@ -608,6 +628,7 @@ text-rendering: optimizeLegibility;
   color: #fafafa;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-weight: 400;
   display: block;
 }
 
@@ -617,20 +638,20 @@ text-rendering: optimizeLegibility;
 }
 
 .section-icon{
-  color: #666;
+  color: #222;
 }
 
 .resume h5{
   margin: 0;
   font-size: 22px;
   line-height: 28px;
-  color: #444;
+  color: #222;
 }
 
 .resume a{
   text-decoration: none;
   color: #111;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: normal;
 }
 
@@ -639,23 +660,23 @@ text-rendering: optimizeLegibility;
 }
 
 .resume span{
-  color: #444;
+  color: #222;
   font-size: 14px;
   line-height: 16px;
   font: inherit;
 }
 
 .past span{
-  color:#777;
+  color:#666;
 }
 .past a{
-  color:#777;
+  color:#666;
 }
 .past h5{
-  color:#777;
+  color:#666;
 }
 .past i{
-  color: #777;
+  color: #666;
 }
 
 .resume ul li{
@@ -686,7 +707,7 @@ text-rendering: optimizeLegibility;
 
 .about h5{
 
-  letter-spacing: 0.7px;
+  letter-spacing: 0.4px;
 }
 
 .about a{
@@ -704,6 +725,7 @@ footer{
   letter-spacing: 0.02em;
   line-height: 1.7em;
   display: inline;
+  font-weight: 400;
 }
 
 .social-media, .email {
@@ -727,6 +749,7 @@ footer{
 
 .signature h6{
   margin: 0;
+  font-weight: 400;
 }
 
 /*----Project page*/
@@ -745,7 +768,7 @@ footer{
   display: inline;
   text-decoration: none;
   letter-spacing: 0.05em;
-  font-family: 'Patua One', cursive;
+  font-family: 'Rubik', sans-serif;
   display: inline;
 }
 
