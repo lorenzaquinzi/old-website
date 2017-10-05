@@ -1,0 +1,46 @@
+/*----Project page*/
+
+.nav-project-page {
+  padding-top: 20px;
+}
+
+.nav-project-page a, i{
+  color: #111;
+  margin: 0;
+  padding-right: 10px;
+  padding-top: 5px;
+  letter-spacing: 0.02em;
+  line-height: 1.7em;
+  display: inline;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  font-family: 'Rubik', sans-serif;
+  display: inline;
+}
+
+.header-project h3{
+  margin-top: 70px;
+  margin-bottom: 1px;
+  padding-top: 0;
+}
+
+.header-project h6{
+  margin-bottom: 10px;
+  color: #111;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.image-full-project{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.intro-project{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.footer-project{
+  margin-top: 0;
+}

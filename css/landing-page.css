@@ -1,0 +1,310 @@
+/*--------- My edit */
+
+
+body{
+  background-color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+-moz-font-feature-settings: "liga" on;
+}
+
+.navigation{
+  flex-direction: row;
+}
+
+@media (min-width:1000px) {
+  .navigation{
+  padding-bottom: 100px;
+  }
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #fafafa;
+    letter-spacing: 0.03em;
+    font-family: 'Rubik', sans-serif;
+}
+.scroll-down{
+  margin-top: 70px;
+  overflow-x: hidden;
+}
+
+@media (min-width: 750px) {
+.scroll-down{
+  margin-top: 140px;
+}
+}
+
+.scroll-down i{
+  text-align: left;
+  padding: 0;
+  display: block;
+}
+.divider{
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.intro{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-repeat: repeat;
+  background-position: center;
+  background-color: rgba(37,37,37, 1);
+}
+
+@media (min-width: 750px) {
+.intro{
+  padding-top: 210px;
+  padding-bottom: 100px;
+  }
+}
+
+.intro h1{
+  text-align: left;
+  color: #fafafa;
+  margin: 0;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  max-width: 1020px;
+}
+
+.intro i{
+  color: #fafafa;
+}
+
+.myname, a:hover{
+  text-decoration: none;
+  color: #fafafa;
+  cursor:pointer;
+}
+
+.skills h5{
+  margin: 0;
+  color: #fafafa;
+}
+@media (min-width: 750px){
+.skills h5{
+  display: inline;
+  padding-right: 10px;
+}
+}
+
+.section-title{
+  text-align: left;
+  color: #333;
+  letter-spacing: 0.03em;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+
+.gallery{
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+@media (min-width: 750px){
+.gallery{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}}
+
+@media (min-width: 1000px){
+.gallery a:hover .thumb-hover, .thumb-hover-2{
+ visibility: visible;
+}}
+
+.thumb-wrapper{
+  margin-bottom: 14px;
+  position: relative;
+}
+
+@media (min-width: 750px){
+.thumb-wrapper{
+  margin-bottom: 35px;
+}}
+
+.thumb-hover{
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: rgba(37, 37, 37, 0.95);
+  padding: 21px;
+  margin: 0;
+  transition-duration: .05s;
+}
+
+.thumb-hover-2{
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  bottom: 0;
+  padding: 21px;
+}
+
+
+.thumb-hover-2 i{
+  color: #fafafa;
+  padding: 0 0 0 5px;
+  vertical-align: middle;
+}
+
+
+@media (min-width: 1000px){
+.thumb-wrapper:hover .thumb-hover{
+  visibility: visible;
+}
+}
+
+@media (min-width: 1000px){
+.thumb-wrapper:hover .thumb-hover-2{
+  visibility: visible;
+}
+}
+
+.thumb-info h5{
+  text-align: left;
+  color: #fafafa;
+  margin: 0;
+  letter-spacing: 0.03em;
+  line-height: normal;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  display: block;
+}
+
+.thumb-info h6{
+  margin: 0;
+  color: #fafafa;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 400;
+  display: block;
+}
+
+.thumb-wrapper img{
+  max-width: 100%;
+  display: block;
+}
+
+.section-icon{
+  color: #222;
+}
+
+.resume h5{
+  margin: 0;
+  font-size: 22px;
+  line-height: 28px;
+  color: #222;
+}
+
+.resume a{
+  text-decoration: none;
+  color: #111;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+.resume a:hover{
+  text-decoration: underline;
+}
+
+.resume span{
+  color: #222;
+  font-size: 14px;
+  line-height: 16px;
+  font: inherit;
+}
+
+.past span{
+  color:#666;
+}
+.past a{
+  color:#666;
+}
+.past h5{
+  color:#666;
+}
+.past i{
+  color: #666;
+}
+
+.resume ul li{
+  list-style: none;
+  margin-bottom: 35px;
+}
+
+.mypicture{
+  margin-bottom: 35px;
+  border-radius: 20px;
+}
+
+.fingerprint{
+  margin-bottom: 35px;
+  color: #fafafa;
+}
+.about{
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #fafafa;
+  background-color: rgba(37,37,37, 1);
+}
+
+.about h5{
+
+  letter-spacing: 0.4px;
+}
+
+.about a{
+  margin-top: 35px;
+}
+
+footer{
+  background-color: #fafafa;
+  padding: 70px 0 0 0;
+
+}
+
+.contact h5{
+  color: #333;
+  letter-spacing: 0.02em;
+  line-height: 1.7em;
+  display: inline;
+  font-weight: 400;
+}
+
+.social-media, .email {
+  margin-top: 10px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.contact h5:hover{
+  text-decoration: underline;
+  line-height: 20px;
+}
+
+
+.signature{
+  background-color:#eee;
+  color: #333;
+  padding: 10px 0;
+  margin-top: 70px;
+}
+
+.signature h6{
+  margin: 0;
+  font-weight: 400;
+}
