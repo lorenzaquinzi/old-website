@@ -1,23 +1,23 @@
 {
   "particles": {
     "number": {
-      "value": 400,
+      "value": 250,
       "density": {
         "enable": true,
-        "value_area": 1025.8919341219544
+        "value_area": 800
       }
     },
     "color": {
       "value": "#ffffff"
     },
     "shape": {
-      "type": "star",
+      "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#ffffff"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 0
       },
       "image": {
         "src": "img/github.svg",
@@ -40,8 +40,8 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 4,
-        "size_min": 0.3,
+        "speed": 2,
+        "size_min": 0.2,
         "sync": false
       }
     },
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 0.5,
+      "speed": 0.3,
       "direction": "top",
       "random": false,
       "straight": false,
