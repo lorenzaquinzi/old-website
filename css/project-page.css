@@ -30,7 +30,8 @@ text-rendering: optimizeLegibility;
   padding-bottom: 35px;
   background-repeat: repeat;
   background-position: center;
-  background-color: #f5d3cb;
+  background-color: transparent;
+  position: relative;
 }
 
 @media (min-width: 750px) {
