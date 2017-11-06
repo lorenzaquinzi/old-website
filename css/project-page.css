@@ -1,46 +1,81 @@
-/*----Project page*/
-
-.nav-project-page {
-  padding-top: 20px;
+body{
+  background-color: #f5d3cb;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility;
+-moz-font-feature-settings: "liga" on;
 }
 
-.nav-project-page a, i{
-  color: #111;
+.navigation{
+  flex-direction: row;
+}
+
+@media (min-width:1000px) {
+  .navigation{
+  padding-bottom: 50px;
+  }
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.intro{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-repeat: repeat;
+  background-position: center;
+  background-color: #f5d3cb;
+}
+
+@media (min-width: 750px) {
+.intro{
+  padding-top: 35px;
+  padding-bottom: 100px;
+  }
+}
+
+.intro h1{
+  text-align: left;
+  color: #333;
   margin: 0;
-  padding-right: 10px;
-  padding-top: 5px;
-  letter-spacing: 0.02em;
-  line-height: 1.7em;
-  display: inline;
-  text-decoration: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
+  font-weight: normal;
   font-family: 'Rubik', sans-serif;
-  display: inline;
+  max-width: 1020px;
 }
 
-.header-project h3{
+.skills h5{
+  margin: 0;
+  color: #333;
+}
+
+@media (min-width: 750px){
+.skills h5{
+  display: inline;
+  padding-right: 10px;
+}
+}
+
+h3{
   margin-top: 70px;
   margin-bottom: 1px;
   padding-top: 0;
 }
 
-.header-project h6{
+h6{
   margin-bottom: 10px;
   color: #111;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.image-full-project{
+.section{
   margin-top: 35px;
   margin-bottom: 35px;
-}
-
-.intro-project{
-  margin-top: 35px;
-  margin-bottom: 35px;
-}
-
-.footer-project{
-  margin-top: 0;
 }
