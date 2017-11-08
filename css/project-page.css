@@ -1,9 +1,20 @@
 body{
-  background-color: #f5d3cb;
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizeLegibility;
 -moz-font-feature-settings: "liga" on;
+}
+
+.row{
+  margin-bottom: 10px;
+}
+
+.modo{
+  background-color: #f5d3cb;
+}
+
+.boreal{
+  background-color: #C695FF;
 }
 
 .navigation{
