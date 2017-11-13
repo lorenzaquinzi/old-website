@@ -9,6 +9,7 @@ text-rendering: optimizeLegibility;
 h4{
   font-weight: 400;
   letter-spacing: normal;
+  text-decoration: underline;
 }
 
 a{
