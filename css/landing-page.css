@@ -269,3 +269,7 @@ text-rendering: optimizeLegibility;
 .about a{
   margin-top: 35px;
 }
+
+.signature i{
+  vertical-align: middle;
+}
