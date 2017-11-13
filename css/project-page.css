@@ -21,6 +21,14 @@ a:hover{
   color: #222;
 }
 
+i{
+  text-align: left;
+  padding: 0;
+  display: block;
+  padding: 0 0 0 5px;
+  vertical-align: middle;
+}
+
 .row{
   margin-bottom: 20px;
 }
