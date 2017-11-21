@@ -6,6 +6,38 @@ text-rendering: optimizeLegibility;
 -moz-font-feature-settings: "liga" on;
 }
 
+h4{
+  font-weight: 400;
+  letter-spacing: normal;
+  text-decoration: underline;
+}
+
+a{
+  color: #222;
+  text-decoration: none
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #222;
+}
+
+i{
+  text-align: left;
+  padding: 0;
+  display: block;
+  padding: 0 0 0 5px;
+  vertical-align: middle;
+}
+
+.row{
+  margin-bottom: 20px;
+}
+
+.columns{
+  margin-bottom: 20px;
+}
+
 
 .navigation{
   flex-direction: row;
@@ -111,89 +143,12 @@ text-rendering: optimizeLegibility;
 
 @media (min-width: 750px){
 .gallery{
-  margin-top: 70px;
+  margin-top: -70px;
   margin-bottom: 70px;
 }}
 
-@media (min-width: 1000px){
-.gallery a:hover .thumb-hover, .thumb-hover-2{
- visibility: visible;
-}}
-
-.thumb-wrapper{
-  margin-bottom: 14px;
-  position: relative;
-}
-
-@media (min-width: 750px){
-.thumb-wrapper{
-  margin-bottom: 35px;
-}}
-
-.thumb-hover{
-  visibility: hidden;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  background-color: rgba(37, 37, 37, 0.95);
-  padding: 21px;
-  margin: 0;
-  transition-duration: .05s;
-}
-
-.thumb-hover-2{
-  position: absolute;
-  visibility: hidden;
-  left: 0;
-  bottom: 0;
-  padding: 21px;
-}
-
-
-.thumb-hover-2 i{
-  color: #fafafa;
-  padding: 0 0 0 5px;
-  vertical-align: middle;
-}
-
-
-@media (min-width: 1000px){
-.thumb-wrapper:hover .thumb-hover{
-  visibility: visible;
-}
-}
-
-@media (min-width: 1000px){
-.thumb-wrapper:hover .thumb-hover-2{
-  visibility: visible;
-}
-}
-
-.thumb-info h5{
-  text-align: left;
-  color: #fafafa;
-  margin: 0;
-  letter-spacing: 0.03em;
-  line-height: normal;
-  font-family: 'Rubik', sans-serif;
-  font-weight: bold;
-  display: block;
-}
-
-.thumb-info h6{
-  margin: 0;
-  color: #fafafa;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-weight: 400;
-  display: block;
-}
-
-.thumb-wrapper img{
-  max-width: 100%;
-  display: block;
+.gallery a:hover{
+  color: #222;
 }
 
 .section-icon{
@@ -202,9 +157,14 @@ text-rendering: optimizeLegibility;
 
 .resume h5{
   margin: 0;
-  font-size: 22px;
-  line-height: 28px;
   color: #222;
+  line-height: 28px;
+}
+
+@media (min-width:550px) {
+  .resume h5{
+    font-size: 22px;
+  }
 }
 
 .resume a{
@@ -256,7 +216,7 @@ text-rendering: optimizeLegibility;
   text-align: center;
   margin-top: 70px;
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 35px;
   color: #fafafa;
   background-color: rgba(37,37,37, 1);
 }
@@ -270,6 +230,36 @@ text-rendering: optimizeLegibility;
   margin-top: 35px;
 }
 
-.signature i{
-  vertical-align: middle;
+.about i{
+  padding: 0;
+}
+
+
+.project h4{
+  margin:0;
+  text-decoration: none;
+}
+
+@media (min-width:750px) {
+.project-description:hover{
+  text-decoration: underline;
+}
+}
+
+.link{
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  padding: 21px;
+  margin: 0;
+  transition-duration: .05s;
+}
+
+@media (min-width:750px) {
+  .project:hover .link{
+    visibility: visible;
+  }
 }
