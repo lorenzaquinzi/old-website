@@ -243,7 +243,6 @@ i{
 @media (min-width:750px) {
 .project-description:hover{
   text-decoration: underline;
-  cursor: auto;
 }
 }
 
