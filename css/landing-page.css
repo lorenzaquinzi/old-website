@@ -139,6 +139,7 @@ i{
   position: relative;
   margin-top: 35px;
   margin-bottom: 35px;
+  border-bottom: 1px solid #eee;
 }
 
 @media (min-width: 750px){
@@ -200,21 +201,17 @@ i{
 
 .resume ul li{
   list-style: none;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 
-
-.fingerprint{
-  margin-bottom: 35px;
-  color: #fafafa;
-}
 .about{
-  text-align: center;
-  margin-top: 70px;
+  text-align: left;
   padding-top: 70px;
   padding-bottom: 35px;
-  color: #fafafa;
-  background-color: rgba(37,37,37, 1);
+  color: #222;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-top: 35px;
 }
 
 .about h5{
@@ -228,7 +225,6 @@ i{
 .about i{
   padding: 0;
 }
-
 
 .project h4{
   margin:0;
