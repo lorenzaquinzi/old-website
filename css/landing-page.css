@@ -54,6 +54,8 @@ i{
     text-decoration: none;
     color: #fafafa;
     letter-spacing: 0.03em;
+    font-size: 18px;
+    font-weight: 400;
     font-family: 'Rubik', sans-serif;
 }
 .scroll-down{
@@ -89,19 +91,22 @@ i{
 
 @media (min-width: 750px) {
 .intro{
-  padding-top: 210px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 150px;
   }
 }
 
-.intro h1{
+.intro h3{
   text-align: left;
   color: #fafafa;
   margin: 0;
   letter-spacing: 0.03em;
-  font-weight: bold;
+  font-weight: 500;
   font-family: 'Rubik', sans-serif;
   max-width: 1020px;
+  text-decoration: none;
+  line-height:normal;
+  padding-bottom: 25px;
 }
 
 .intro i{
@@ -127,25 +132,24 @@ i{
 
 .section-title{
   text-align: left;
-  color: #333;
+  color: #191919;
   letter-spacing: 0.03em;
   font-family: 'Rubik', sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   position: relative;
+  display: inline;
 }
 
 
 .gallery{
   position: relative;
   margin-top: 35px;
-  margin-bottom: 35px;
   border-bottom: 1px solid #eee;
 }
 
 @media (min-width: 750px){
 .gallery{
   margin-top: -70px;
-  margin-bottom: 70px;
 }}
 
 .gallery a:hover{
@@ -156,14 +160,20 @@ i{
   color: #222;
 }
 
-.resume h5{
+.resume{
+  border-bottom: 1px solid #eee;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.experience h5{
   margin: 0;
   color: #222;
   line-height: 28px;
 }
 
 @media (min-width:550px) {
-  .resume h5{
+  .experience h5{
     font-size: 22px;
   }
 }
@@ -179,7 +189,7 @@ i{
   text-decoration: underline;
 }
 
-.resume span{
+.experience span{
   color: #222;
   font-size: 14px;
   line-height: 16px;
@@ -201,29 +211,11 @@ i{
 
 .resume ul li{
   list-style: none;
-  /* margin-bottom: 35px; */
 }
 
-.about{
-  text-align: left;
-  padding-top: 70px;
-  padding-bottom: 35px;
-  color: #222;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+.experience{
   margin-top: 40px;
-}
-
-.about h5{
-  letter-spacing: 0.4px;
-}
-
-.about a{
-  margin-top: 35px;
-}
-
-.about i{
-  padding: 0;
+  margin-bottom: 40px;
 }
 
 .project h4{

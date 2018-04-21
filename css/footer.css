@@ -1,9 +1,9 @@
 footer{
   background-color:#fafafa;
-  padding: 70px 0 0 0;
+  padding: 10px 0 10px 0;
 }
 
-.section-title{
+.find-me-title{
   text-align: left;
   color: #333;
   letter-spacing: 0.03em;
@@ -12,12 +12,12 @@ footer{
   position: relative;
 }
 
-.contact h5{
+.contact h6{
   color: #333;
   letter-spacing: 0.02em;
   line-height: 1.7em;
   display: inline;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .social-media, .email {
@@ -26,18 +26,26 @@ footer{
   text-decoration: none;
 }
 
-.contact h5:hover{
+.contact h6:hover{
   text-decoration: underline;
   line-height: 20px;
 }
 
 
 .signature{
-  background-color:#eee;
-  color: #333;
+  color: #444;
   padding: 10px 0;
-  margin-top: 70px;
-}
+  font-weight: 100;
+  display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-ms-flex-direction: row;
+flex-direction: row;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;}
 
 .signature i{
   vertical-align: middle;
@@ -45,7 +53,14 @@ footer{
   padding: 0;
 }
 
-.signature h6{
-  margin: 0;
+.signature span{
+  margin: 0 20px 0 0;
   font-weight: 400;
+}
+.copyright{
+  display: inline-block;
+}
+
+.social{
+  display: inline-block;
 }
