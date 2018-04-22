@@ -159,14 +159,14 @@ i{
 
 .resume{
   border-bottom: 1px solid #eee;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 20px;
 }
 
 .experience h5{
   margin: 0;
   color: #222;
-  line-height: 28px;
+  line-height: 40px;
+  font-weight: 500;
 }
 
 @media (min-width:550px) {
